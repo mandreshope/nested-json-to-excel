@@ -1,0 +1,39 @@
+{
+  "name": "nested-json-to-excel",
+  "version": "1.0.0",
+  "description": "A sample app to show how to build a great Messenger experience!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "json-to-table": "^4.2.1",
+    "moment": "^2.29.1",
+    "nested-json-to-table": "^1.0.10",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "string-table": "^0.1.5",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+  },
+  "repository": {
+    "url": "https://github.com/mandreshope"
+  },
+  "author": "nested-json-to-excel",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/eslint-parser": "^7.14.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.3.2"
+  }
+}
