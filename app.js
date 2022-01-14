@@ -2,8 +2,8 @@
 
 // Import dependencies and set up http server
 const
-  { urlencoded, json } = require("body-parser"),
-  crypto = require("crypto"),
+  { urlencoded } = require("body-parser"),
+  cors = require('cors'),
   path = require("path"),
   fs = require("fs"),
   { jsonToExcel } = require("nested-json-to-table"),
@@ -18,6 +18,8 @@ const appUrl = "http://localhost";
 
 // Serving static files in Express
 app.use(express.static(__dirname + '/public'));
+
+app.use(cors())
 
 app.use(
   urlencoded({
